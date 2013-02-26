@@ -53,6 +53,15 @@ body {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfbfbf', endColorstr='#d9d9d9',GradientType=0 );
 }
 
+#menu > li.active > a:hover {
+	color: #FFF;
+	text-shadow: 1px 1px #9C9C9C;
+}
+
+#menu > li > a:hover {
+	color: #000;
+}
+
 .clear {
 	clear: both;
 }
