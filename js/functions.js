@@ -15,7 +15,7 @@ window.onload = function() {
 window.onscroll = function() {
 	var sY = window.scrollY;
 	if(menu_bottom-20 < sY && !isFloatingHeader) floatHeader();
-	else if(isFloatingHeader) unfloatHeader();
+	else if(isFloatingHeader && menu_bottom-20 > sY) unfloatHeader();
 }
 
 function floatHeader() {
