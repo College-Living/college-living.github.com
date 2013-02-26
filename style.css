@@ -138,3 +138,11 @@ body {
 .clear {
 	clear: both;
 }
+.box {
+	width: 700px;
+	margin: 0 auto;
+	border-radius: 20px;
+	min-height: 300px;
+	background: #FFF;
+	border-color: #AAA;
+	border: 1px solid;
