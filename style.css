@@ -172,8 +172,8 @@ h2 {
 }
 
 .info_list > li {
-	border-bottom: 1px solid #BBB;
-	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+	border-top: 1px solid #DDD;
 }
 
 .info_list > li:first-child {
