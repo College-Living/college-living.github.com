@@ -16,9 +16,11 @@ window.onscroll = function() {
 
 function floatHeader() {
 	header.className = "littleheader";
+	document.body.style.marginTop = "60px";
 }
 
 
 function unfloatHeader() {
 	header.className = "bigheader";
+	document.body.style.marginTop = "0px";
 }
