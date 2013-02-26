@@ -4,6 +4,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12pt;
 	background-color: #F5F5F5;	
+	color: #BBB;
 }
 
 #page {
@@ -138,6 +139,7 @@ body {
 .clear {
 	clear: both;
 }
+
 .box {
 	width: 700px;
 	margin: 0 auto;
@@ -146,3 +148,18 @@ body {
 	background: #FFF;
 	border: 1px solid #DDD;
 	box-shadow: 0px 0px 10px #CCC;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 1em 0;
+	color: #666;
+}	
+
+h2 {
+	font-size: 1.25em;
+	font-weight: bold;
+	margin: 1em 0;
+	color: #999;
+}
