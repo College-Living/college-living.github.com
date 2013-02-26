@@ -12,19 +12,18 @@ body {
 }
 
 #logo {
-	float: left;
-	width: 465px;
+	width: 100%;
 	height: 132px;
-	background-image: url('img/cl_logo.png');
+	text-align: center;
 }
 
 #menu {
-	height: 132px;
-	line-height: 132px;
-	float: right;
+	padding-top: 
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	width: 100%;
+	text-align: center;
 }
 
 #menu > li {
