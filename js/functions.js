@@ -1,8 +1,10 @@
 var menu;
+var header;
 var menu_bottom;
 
 window.onload = function() {
 	menu = document.getElementById("menu");
+	header = document.getElementById("header");
 	menu_bottom = menu.offsetTop + menu.offsetHeight;
 }
 
@@ -13,10 +15,10 @@ window.onscroll = function() {
 }
 
 function floatHeader() {
-	menu.className = "littleheader";
+	header.className = "littleheader";
 }
 
 
 function unfloatHeader() {
-	menu.className = "bigheader";
+	header.className = "bigheader";
 }
