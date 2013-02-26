@@ -1,10 +1,12 @@
 var menu;
 var header;
+var page;
 var menu_bottom;
 
 window.onload = function() {
 	menu = document.getElementById("menu");
 	header = document.getElementById("header");
+	page = document.getElementById("page");
 	menu_bottom = menu.offsetTop + menu.offsetHeight;
 }
 
@@ -16,11 +18,11 @@ window.onscroll = function() {
 
 function floatHeader() {
 	header.className = "littleheader";
-	document.body.style.marginTop = "60px";
+	page.style.marginTop = "60px";
 }
 
 
 function unfloatHeader() {
 	header.className = "bigheader";
-	document.body.style.marginTop = "0px";
+	page.style.marginTop = "0px";
 }
