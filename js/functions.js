@@ -1,7 +1,9 @@
 var menu;
 var header;
 var page;
+var page_offset = 20;
 var menu_bottom;
+var isFloatingHeader = false;
 
 window.onload = function() {
 	menu = document.getElementById("menu");
@@ -12,19 +14,21 @@ window.onload = function() {
 
 window.onscroll = function() {
 	var sY = window.scrollY;
-	if(menu_bottom-20 < sY) floatHeader();
-	else unfloatHeader();
+	if(menu_bottom-20 < sY && !isFloatingHeader) floatHeader();
+	else if(isFloatingHeader) unfloatHeader();
 }
 
 function floatHeader() {
+	isFloatingHeader = true;
 	header.className = "littleheader";
 	var height = header.offsetHeight;
-	var margin = menu_bottom+height;
+	var margin = menu_bottom+height+page_offset;
 	page.style.marginTop = margin+"px";
 }
 
 
 function unfloatHeader() {
+	isFloatingHeader = false;
 	header.className = "bigheader";
-	page.style.marginTop = "0px";
+	page.style.marginTop = page_offset+"px";
 }
