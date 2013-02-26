@@ -18,7 +18,9 @@ window.onscroll = function() {
 
 function floatHeader() {
 	header.className = "littleheader";
-	page.style.marginTop = "60px";
+	var height = header.heightOffset;
+	var margin = menu_bottom+height;
+	page.style.marginTop = margin+"px";
 }
 
 
