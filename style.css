@@ -20,7 +20,6 @@ body {
 
 #menu > li {
 	float: left;
-	padding: 5px 10px;
 }
 
 #menu > li > a {
@@ -28,6 +27,8 @@ body {
 	text-shadow: 1px 1px #FFF;
 	font-size: 12pt;
 	margin-right: 20px;
+	text-decoration: none;
+	padding: 5px 10px;
 	display: block;
 }
 
