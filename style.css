@@ -164,3 +164,22 @@ h2 {
 	margin: 0.25em 0;
 	color: #999;
 }
+
+.info_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.info_list > li {
+	border-bottom: 1px solid #BBB;
+	border-top: 1px solid #EEE;
+}
+
+.info_list > li:first-child {
+	border-top: 0px;
+}
+
+.info_list > li:last-child {
+	border-bottom: 0px;
+}
