@@ -142,6 +142,7 @@ body {
 
 .box {
 	width: 700px;
+	padding: 10px;
 	margin: 0 auto;
 	border-radius: 20px;
 	min-height: 400px;
