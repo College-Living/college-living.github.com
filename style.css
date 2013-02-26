@@ -69,10 +69,12 @@ body {
 
 .littleheader {
 	background: white;
+	box-shadow: 0px 0px 0px #CCC;
 	width: 100%;
 }
 
 .littleheader #logo {
+	padding-top: 8px;
 	width: 200px;
 	float: left;
 }
