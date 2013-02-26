@@ -130,6 +130,10 @@ body {
 	color: #000;
 }
 
+.littleheader #menu > li.active > a:hover {
+	color: #FFF;
+}
+
 .clear {
 	clear: both;
 }
