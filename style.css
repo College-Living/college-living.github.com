@@ -1,6 +1,47 @@
 body {
-	margin: 0;
+	margin: 50px;
 	padding: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12pt;
+	background-color: #F5F5F5;	
 }
+
+#page {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+#menu {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu > li {
+	float: left;
+	padding: 5px 10px;
+}
+
+#menu > li > a {
+	color: #7a7a7a;
+	text-shadow: 1px 1px #FFF;
+	font-size: 12pt;
+	margin-right: 20px;
+	display: block;
+}
+
+#menu > li.active > a {
+	color: #FFF;
+	text-shadow: 1px 1px #FFF;
+	border-radius: 50px;
+	background: #bfbfbf;
+	background: -moz-linear-gradient(top, #bfbfbf 0%, #d9d9d9 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bfbfbf), color-stop(100%,#d9d9d9));
+	background: -webkit-linear-gradient(top, #bfbfbf 0%,#d9d9d9 100%);
+	background: -o-linear-gradient(top, #bfbfbf 0%,#d9d9d9 100%);
+	background: -ms-linear-gradient(top, #bfbfbf 0%,#d9d9d9 100%);
+	background: linear-gradient(to bottom, #bfbfbf 0%,#d9d9d9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfbfbf', endColorstr='#d9d9d9',GradientType=0 );
+}
+
