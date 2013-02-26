@@ -34,7 +34,7 @@ body {
 
 #menu > li.active > a {
 	color: #FFF;
-	text-shadow: 1px 1px #FFF;
+	text-shadow: 1px 1px #9C9C9C;
 	border-radius: 50px;
 	background: #bfbfbf;
 	background: -moz-linear-gradient(top, #bfbfbf 0%, #d9d9d9 100%);
