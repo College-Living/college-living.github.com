@@ -19,6 +19,8 @@ body {
 }
 
 #menu {
+	height: 132px;
+	line-height: 132px;
 	float: right;
 	margin: 0;
 	padding: 0;
