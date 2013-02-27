@@ -4,7 +4,7 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 12pt;
 	background-color: #EAEAEA;	
-	color: #BBB;
+	color: #AAA;
 }
 
 #page {
@@ -69,6 +69,7 @@ body {
 }
 
 .littleheader {
+	z-index: 10;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -216,4 +217,31 @@ h3 {
 	max-height: 100%;
 	border-radius: 20px;
 	border: 1px solid #000;
+}
+
+.about_us_pic {
+	float: left;
+	width: 200px;
+	height: 300px;
+	background-size: 200px;
+	border-radius: 20px;
+	border: 1px solid #000;
+	margin-right: 20px;
+	position: relative;
+}
+
+.about_us_pic > div {
+	position: absolute;
+	font-size: 18pt;
+	bottom: 15px;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	color: #fff;
+	font-weight: bold;
+	background: rgba(0,0,0,.3);
+	width: 100%;
+}
+
+.about_us_pic:last-child {
+	margin-right: 0;
 }
