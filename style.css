@@ -155,21 +155,21 @@ h1 {
 	font-size: 1.25em;
 	font-weight: bold;
 	margin: 0.25em 0;
-	color: #666;
+	color: rgb(69, 170, 252);
 }	
 
 h2 {
 	font-size: 1.1em;
 	margin: 0.25em 0;
 	font-weight: normal;
-	color: #999;
+	color: #666;
 }
 
 h3 {
 	font-size: 1.0em;
 	margin: 0.25em 0;
 	font-weight: normal;
-	color: #BBB;
+	color: #888;
 }
 
 .info_list {
@@ -244,4 +244,16 @@ h3 {
 
 .about_us_pic:last-child {
 	margin-right: 0;
+}
+
+a {
+	color: rgb(69, 170, 252);
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+a:hover {
+	color: rgb(39, 106, 156);
+	font-weight: bold;
+	text-decoration: underline;	
 }
